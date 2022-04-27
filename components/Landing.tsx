@@ -1,13 +1,11 @@
 import Link from 'next/link'
 import {
-  HiCalendar,
   HiOutlineCalendar,
   HiOutlineLocationMarker,
 } from 'react-icons/hi'
 import { Parallax } from 'react-scroll-parallax'
 import Button from './Button'
 import ShapeRain from './Effects/ShapeRain'
-import Logo from './Logo'
 
 const Landing: React.FC = () => {
   return (
