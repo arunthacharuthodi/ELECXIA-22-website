@@ -6,7 +6,7 @@ import Icon from '@hackclub/icons'
 import Logo from './Logo'
 
 const navItems = {
-  'HOW IT WORKS': '/#how-it-works',
+  'OUR EVENTS': '/#how-it-works',
   REGISTER: '/register',
   FAQ: '/#faq',
   SPONSORS: '/#sponsors',

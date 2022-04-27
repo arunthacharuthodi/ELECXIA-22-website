@@ -36,6 +36,7 @@ module.exports = {
         },
       },
       fontFamily: {
+        ubuntu:['"Ubuntu"', 'ubuntu'],
         primary: ['"Outfit"', 'sans-serif'], // or Fira Sans?
         brand: ['"HELLO DENVER DISPLAY"', 'Outfit', 'sans-serif'],
         'logo-exponent': ['Quark', 'sans-serif'],

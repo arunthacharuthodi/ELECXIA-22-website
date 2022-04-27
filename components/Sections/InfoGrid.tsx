@@ -1,5 +1,5 @@
 import clsx from 'clsx'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 
 import Image1 from 'photos/2019/IMG_4924.jpeg'
 import Image3 from 'photos/2019/IMG_2647.jpeg'

@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import KShaw from 'photos/sponsors/kirklandshaw_bw.png'
 import Insomnia from 'photos/sponsors/insomnia.png'
 import DCU from 'photos/sponsors/dcu.svg'
@@ -15,53 +15,53 @@ const primarySponsors = [
   {
     name: 'OnStartups',
     img: OnStartups,
-    url: 'https://onstartups.com/',
-  },
-  {
-    name: 'DCU',
-    img: DCU,
-    url: 'https://dcu.org/',
-  },
-  {
-    name: 'Givebutter',
-    img: Givebutter,
-    url: 'https://givebutter.com/',
-  },
-  {
-    name: 'Infinite Analytics',
-    img: IA,
-    url: 'https://infiniteanalytics.com/',
-  },
-  {
-    name: 'SmartKargo',
-    img: SmartKargo,
-    url: 'https://smartkargo.com/',
+    url: '',
   },
   // {
-  //   name: 'NuVu Studio',
-  //   img: NuVu,
-  //   url: 'https://nuvustudio.com/',
+  //   name: 'DCU',
+  //   img: DCU,
+  //   url: 'https://dcu.org/',
   // },
-  {
-    name: 'Insomnia Cookies',
-    img: Insomnia,
-    url: 'https://insomniacookies.com/',
-  },
-  {
-    name: 'Kirkland and Shaw',
-    img: KShaw,
-    url: 'https://kirklandandshaw.com/',
-  },
-  {
-    name: 'MIT OGCR',
-    img: MITOGCR,
-    url: 'https://ogcr.mit.edu/',
-  },
-  {
-    name: 'Virtual, Inc.',
-    img: Virtual,
-    url: 'https://virtualinc.com/',
-  },
+  // {
+  //   name: 'Givebutter',
+  //   img: Givebutter,
+  //   url: 'https://givebutter.com/',
+  // },
+  // {
+  //   name: 'Infinite Analytics',
+  //   img: IA,
+  //   url: 'https://infiniteanalytics.com/',
+  // },
+  // {
+  //   name: 'SmartKargo',
+  //   img: SmartKargo,
+  //   url: 'https://smartkargo.com/',
+  // },
+  // // {
+  // //   name: 'NuVu Studio',
+  // //   img: NuVu,
+  // //   url: 'https://nuvustudio.com/',
+  // // },
+  // {
+  //   name: 'Insomnia Cookies',
+  //   img: Insomnia,
+  //   url: 'https://insomniacookies.com/',
+  // },
+  // {
+  //   name: 'Kirkland and Shaw',
+  //   img: KShaw,
+  //   url: 'https://kirklandandshaw.com/',
+  // },
+  // {
+  //   name: 'MIT OGCR',
+  //   img: MITOGCR,
+  //   url: 'https://ogcr.mit.edu/',
+  // },
+  // {
+  //   name: 'Virtual, Inc.',
+  //   img: Virtual,
+  //   url: 'https://virtualinc.com/',
+  // },
 ]
 
 const Grid: React.FC<{

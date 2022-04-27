@@ -4,7 +4,7 @@ import MahacksIII from 'photos/III/IMG_0132.jpeg'
 import MahacksII from 'photos/II/IMG_0699.jpeg'
 import MahacksI from 'photos/I/aaaa.jpeg'
 
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 
 const Link: React.FC<{
   img: StaticImageData

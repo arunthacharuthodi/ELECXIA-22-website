@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <Meta />
 
       <div>
-        <InfoGrid />
+        {/* <InfoGrid /> */}
 
         <div id="sponsors">
           <Heading>Sponsors</Heading>
