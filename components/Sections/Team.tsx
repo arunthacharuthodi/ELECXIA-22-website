@@ -2,7 +2,7 @@ import Icon from '@hackclub/icons'
 import clsx from 'clsx'
 import Heading from 'components/Heading'
 import Image from 'next/image'
-import Benjamin from 'photos/team/benjamin.png'
+import arun from 'photos/team/arun.jpg'
 import Claire from 'photos/team/claire.png'
 import Kunal from 'photos/team/kunal.jpeg'
 import Theo from 'photos/team/theo.png'
@@ -36,9 +36,9 @@ const Person = ({ name, role, pronouns, image, link }: any) => {
       <Image
         src={image}
         alt={name}
-        width={80}
-        height={80}
-        className="rounded-full"
+        width={120}
+        height={120}
+        className="rounded-md"
         objectFit="cover"
         objectPosition={'center'}
       />
@@ -74,37 +74,104 @@ const Team: React.FC = () => {
     <>
       <Grid>
         <Person
-          name="Kunal Botla"
-          role="Lead Organizer"
-          pronouns="he/him"
+          name="Sourav K S"
+          role="Student Organizer"
+          // pronouns="he/him"
           image={Kunal}
         />
         <Person
-          name="Benjamin Ashbaugh"
-          role="Design + Development"
-          pronouns="he/him"
-          image={Benjamin}
+          name="Arun Thacharuthodi"
+          role="Technical Lead"
+          // pronouns="he/him"
+          image={arun}
           // link='https://benjaminashbaugh.me'
         />
         <Person
-          name="Claire Wang"
-          role="Logistics"
-          pronouns="she/her"
+          name="Binil Babu"
+          role="finance head"
+          // pronouns="she/her"
           image={Claire}
         />
         <Person
-          name="Theo Bleier"
-          role="Advisor"
-          pronouns="he/him"
+          name="muhammed Anfal A"
+          role="Media Head"
+          // pronouns="he/him"
           image={Theo}
           // link='https://benjaminashbaugh.me'
         />
         <Person
-          name="Sarthak Mohanty"
-          role="Design Advisor"
-          pronouns="he/him"
+          name="Ajith Kumar S"
+          role="Event Co-ordinator"
+          // pronouns="he/him"
           image={Sarthak}
         />
+        <Person
+        name="Shifana sherin"
+        role="Decoraton Head"
+        // pronouns="he/him"
+        image={Sarthak}
+      />
+      <Person
+        name="Sooraj"
+        role="Decoraton Head"
+        // pronouns="he/him"
+        image={Sarthak}
+      />
+      <Person
+        name="Mustak C P"
+        role="Discipline Head"
+        // pronouns="he/him"
+        image={Sarthak}
+      />
+      <Person
+        name="Adheeb"
+        role="Volunteer Head"
+        // pronouns="he/him"
+        image={Sarthak}
+      />
+      <Person
+        name="Jithin"
+        role="Documentation Head"
+        // pronouns="he/him"
+        image={Sarthak}
+      />
+      <Person
+        name="Aswathy"
+        role="invition Head"
+        // pronouns="he/him"
+        image={Sarthak}
+      />
+      <Person
+        name="Dhilnesh"
+        role="Project managing Head"
+        // pronouns="he/him"
+        image={Sarthak}
+      />
+      <Person
+        name="Soorya"
+        role="Project managing Head"
+        // pronouns="he/him"
+        image={Sarthak}
+      />
+      <Person
+        name="Akshay"
+        role="Project managing Head"
+        // pronouns="he/him"
+        image={Sarthak}
+      />
+      <Person
+        name="krishna Das"
+        role="Project managing Head"
+        // pronouns="he/him"
+        image={Sarthak}
+      />
+      <Person
+        name="Midhunjith"
+        role="Project managing Head"
+        // pronouns="he/him"
+        image={Sarthak}
+      />
+      
       </Grid>
 
       <Heading as="h3" small>

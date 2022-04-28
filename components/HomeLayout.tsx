@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import BackgroundImage from '../photos/landing.jpeg'
+import BackgroundImage from '../photos/landing.jpg'
 import Navbar from './Navbar'
 import { Parallax } from 'react-scroll-parallax'
 import Landing from './Landing'
@@ -12,11 +12,12 @@ const HomeLayout: React.FC<{}> = ({ children }) => {
       <AnalyticsScript />
       <Navbar />
       <div className="h-screen">
-        <div className="landing-bg-img-container">
+        <div className="landing-bg-img-container" >
           <Image
+            
             layout="responsive"
             src={BackgroundImage}
-            alt="Hackers work on their projects at MAHacks 2019"
+            alt="elecxia"
             priority
             quality={30}
             objectFit="cover"
@@ -53,7 +54,7 @@ const HomeLayout: React.FC<{}> = ({ children }) => {
         <Landing />
       </div>
 
-      <div className="h-2 w-full bg-primary" />
+      <div className="h-2 w-full bg-" />
 
       <div className="max-w-5xl mx-auto px-6 mb-20">{children}</div>
 

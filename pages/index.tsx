@@ -8,17 +8,51 @@ import Team from 'components/Sections/Team'
 import Meta from 'components/Meta'
 import Previous from 'components/Sections/Previous'
 import Sponsors from 'components/Sections/Sponsors'
+import EventCard from 'components/event_card'
 
 const Home: NextPage = () => {
+  
   return (
     <HomeLayout>
       <Meta />
+      <Heading>
+
+      <div id="ourevents" >
+      <h1 className="text-3xl sm:text-3xl md:text-3xl font-ubuntu font-bold text-transparent bg-clip-text bg-text drop-shadow-glow-white">
+              OUR EVENTS
+            </h1>
+      </div >
+      </Heading>
+      <br />
+
+
+
+      <div className="flex flex-wrap justify-evenly space-y-10">
+      
+      <EventCard/>
+      <EventCard/>
+      <EventCard/>
+      <EventCard/>
+      </div>
+      <br />
+      <p className="text-gray-400 text-sm">
+            <a className="underline" href="/prospectus">
+              view more events
+            </a>
+            &nbsp;
+            <BsArrowRight className="inline-block mx-1" />
+           
+          </p>
+      
+
 
       <div>
         {/* <InfoGrid /> */}
 
         <div id="sponsors">
-          <Heading>Sponsors</Heading>
+          <Heading><h1 className="text-3xl sm:text-3xl md:text-3xl font-ubuntu font-bold text-transparent bg-clip-text bg-text drop-shadow-glow-white">
+              SPONSORS
+            </h1></Heading>
           <p className="text-gray-400 text-sm">
             MAHacks is made possible by our awesome sponsors–
             <a className="underline" href="/prospectus">
@@ -37,7 +71,9 @@ const Home: NextPage = () => {
         </div>
 
         <div id="faq">
-          <Heading>FAQ</Heading>
+          <Heading><h1 className="text-3xl sm:text-3xl md:text-3xl font-ubuntu font-bold text-transparent bg-clip-text bg-text drop-shadow-glow-white">
+              FAQ
+            </h1></Heading>
           <p className="text-gray-400 text-sm">
             Have a question?{' '}
             <a
@@ -48,7 +84,7 @@ const Home: NextPage = () => {
             </a>
           </p>
 
-          <div className="p-6 rounded-2xl bg-bg-card my-4 mdx">
+          <div className="p-6 rounded-xl bg-bg-card font-ubuntu my-4 mdx">
             <FAQ />
           </div>
         </div>
@@ -59,11 +95,7 @@ const Home: NextPage = () => {
           <Team />
         </div>
 
-        <div id="previous">
-          <Heading>Previous Events</Heading>
-
-          <Previous />
-        </div>
+      
       </div>
     </HomeLayout>
   )
