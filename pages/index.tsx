@@ -90,7 +90,9 @@ const Home: NextPage = () => {
         </div>
 
         <div id="team">
-          <Heading>Team</Heading>
+          <Heading><h1 className="text-3xl sm:text-3xl md:text-3xl font-ubuntu font-bold text-transparent bg-clip-text bg-text drop-shadow-glow-white">
+          ORGANISERS
+            </h1></Heading>
 
           <Team />
         </div>

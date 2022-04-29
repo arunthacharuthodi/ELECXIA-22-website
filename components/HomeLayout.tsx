@@ -19,7 +19,7 @@ const HomeLayout: React.FC<{}> = ({ children }) => {
             src={BackgroundImage}
             alt="elecxia"
             priority
-            quality={30}
+            quality={100}
             objectFit="cover"
             objectPosition={'center'}
           />
@@ -42,7 +42,7 @@ const HomeLayout: React.FC<{}> = ({ children }) => {
               width: 100%;
               height: 100%;
               background: black;
-              opacity: 0.85;
+              opacity: 0.55;
             }
 
             .landing-bg-img-container > span {

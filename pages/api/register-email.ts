@@ -25,20 +25,20 @@ export default async function handler(
   await createEmail(email, verificationSecret)
 
   await mg.messages.create(domain, {
-    from: `MAHacks Application <registration@${domain}>`,
-    'h:Reply-To': 'team@mahacks.com',
+    from: `Elecxia Application <registration@${domain}>`,
+    'h:Reply-To': 'team@Elecxia.com',
     to: email,
-    subject: 'Your MAHacks Registration Link',
+    subject: 'Your Elecxia Registration Link',
     text: dedent`Hello!
     
-    Please click the link below to apply for MAHacks VI. We can't wait to see you!
+    Please click the link below to apply for Elecxia VI. We can't wait to see you!
 
-    http://mahacks.com/application/${verificationSecret}
+    http://Elecxia.com/application/${verificationSecret}
     
-    If you have any questions, please reach out to team@mahacks.com.
+    If you have any questions, please reach out to team@elecxia.co.in.
     
     Thanks,
-    The MAHacks Team`,
+    The Elecxia Team`,
   })
 
   res.json({

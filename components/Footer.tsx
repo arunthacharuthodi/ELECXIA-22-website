@@ -30,13 +30,13 @@ const Footer: React.FC = () => {
               glyph="instagram"
             />
             <SocialButton href="https://twitter.com/ma_hacks" glyph="twitter" />
-            <SocialButton href="https://github.com/mahacks" glyph="github" />
+            <SocialButton href="https://github.com/mahacks" glyph="link" />
             <SocialButton href="mailto:team@mahacks.com" glyph="email" />
           </div>
 
           <div className="flex-1 flex flex-col gap-1">
             <FooterLink href="/conduct">code of conduct</FooterLink>
-            <FooterLink href="https://v.mahacks.com/">old website</FooterLink>
+            {/* <FooterLink href="https://v.mahacks.com/">old website</FooterLink> */}
           </div>
         </div>
         <div className="flex-1 flex flex-col gap-3">

@@ -73,6 +73,12 @@ const Team: React.FC = () => {
   return (
     <>
       <Grid>
+      <Person
+          name=" DR.Nithin Raj"
+          role="advising professor"
+          // pronouns="he/him"
+          image={Kunal}
+        />
         <Person
           name="Sourav K S"
           role="Student Organizer"
@@ -81,14 +87,14 @@ const Team: React.FC = () => {
         />
         <Person
           name="Arun Thacharuthodi"
-          role="Technical Lead"
+          role="Technical Head"
           // pronouns="he/him"
           image={arun}
           // link='https://benjaminashbaugh.me'
         />
         <Person
           name="Binil Babu"
-          role="finance head"
+          role="finance and advertising Head"
           // pronouns="she/her"
           image={Claire}
         />
@@ -142,18 +148,6 @@ const Team: React.FC = () => {
         image={Sarthak}
       />
       <Person
-        name="Dhilnesh"
-        role="Project managing Head"
-        // pronouns="he/him"
-        image={Sarthak}
-      />
-      <Person
-        name="Soorya"
-        role="Project managing Head"
-        // pronouns="he/him"
-        image={Sarthak}
-      />
-      <Person
         name="Akshay"
         role="Project managing Head"
         // pronouns="he/him"
@@ -171,6 +165,20 @@ const Team: React.FC = () => {
         // pronouns="he/him"
         image={Sarthak}
       />
+      
+      <Person
+        name="Dhilnesh"
+        role="Project managing Head"
+        // pronouns="he/him"
+        image={Sarthak}
+      />
+      <Person
+        name="Soorya"
+        role="Project managing Head"
+        // pronouns="he/him"
+        image={Sarthak}
+      />
+      
       
       </Grid>
 
