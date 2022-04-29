@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-const name = 'MAHacks'
+const name = 'Elecxia'
 const url = 'https://mahacks.com'
 
 const Meta: React.FC<{

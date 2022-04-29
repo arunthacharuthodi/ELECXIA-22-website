@@ -6,11 +6,11 @@ import {
 import { Parallax } from 'react-scroll-parallax'
 import Button from './Button'
 import ShapeRain from './Effects/ShapeRain'
+import Heading from './Heading'
 
 const Landing: React.FC = () => {
   return (
     <div>
-      <ShapeRain count={10} />
       <Parallax y={[20, -20]}>
         <div className="px-3 max-w-3xl mx-auto h-screen flex flex-col items-start gap-6 sm:gap-10 justify-center">
           {/* <div className="p-3 text-center bg-accent-red border-accent-red border-2 rounded-lg font-bold animate-hover">
@@ -19,16 +19,19 @@ const Landing: React.FC = () => {
           </div> */}
 
           <div>
-            <h1 className="text-7xl sm:text-7xl md:text-8xl font-brand font-bold text-transparent bg-clip-text bg-text drop-shadow-glow-white">
+
+            
+            <div className="text-5xl sm:text-5xl md:text-8xl font-ubuntu font-bold text-transparent bg-clip-text bg-text drop-shadow-glow-white">
               ELECXIA'22
-            </h1>
+            </div>
+         
             {/* <div className="text-xl font-semibold font-heading">
               March 19-20 @ Boston, MA
             </div> */}
           </div>
 
-          <p className="sm:text-xl  font-ubuntu  max-w-5xl">
-            Hey.. Come and Join us for the 3 days event Organised and Controlled by "ASSOCIATION OF ELECTRICAL AND ELECTRONICS ENGINEERING" in Government Engineering College Wayanad. we are Hosting Lots Of Events During this Fest... So lets Have 
+          <p className="sm:text-base  font-ubuntu   max-w-5xl">
+            Hey.. Come and Join us for the 3 days event Organised and Controlled by <b>ASSOCIATION OF ELECTRICAL AND ELECTRONICS ENGINEERING</b> in Government Engineering College Wayanad. we are Hosting Lots Of Events During this Fest... So lets Have 
             Fun Grab your Bag And Came here.. 
           </p>
 
@@ -42,12 +45,12 @@ const Landing: React.FC = () => {
             </div>
             <div className="flex items-center">
               <HiOutlineCalendar className="inline-block mx-2" size={20} />
-              22 May 2022
+              DATE TO BE ANNOUNCED!!!
             </div>
           </div>
 
           <div className="flex flex-col gap-4">
-            <Link href="/register">
+            <Link href="/#ourevents">
               <a>
                 <Button glow>Register Now</Button>
               </a>
@@ -55,7 +58,7 @@ const Landing: React.FC = () => {
 
             {/* <Link href="/register-interest"> */}
             <a
-              href="https://airtable.com/shruVkzby5uUng11e"
+              href="https://airtable.com/shrg8CUOGnZUsveIr"
               className="underline text-gray-400 text-xs"
             >
               Not yet sure if you can attend? Get a reminder closer to the

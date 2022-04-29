@@ -37,6 +37,7 @@ module.exports = {
       },
       fontFamily: {
         ubuntu:['"Ubuntu"', 'ubuntu'],
+        ubuntumedium:['"Ubuntu Medium"', 'ubuntu-medium'],
         primary: ['"Outfit"', 'sans-serif'], // or Fira Sans?
         brand: ['"HELLO DENVER DISPLAY"', 'Outfit', 'sans-serif'],
         'logo-exponent': ['Quark', 'sans-serif'],
@@ -46,8 +47,8 @@ module.exports = {
         'glow-white': '0px 0px 8px rgba(255, 255, 255, 0.6)',
         // 'glow-red': '0px 0px 8px rgba(255, 0, 0, 0.8)',
         // 'glow-green': '0px 0px 8px rgba(0, 128, 0, 0.8)',
-        // 'glow-blue': '0px 0px 8px rgba(17, 141, 240, 0.8)',
-        // 'glow-orange': '0px 0px 8px rgba(255, 165, 0, 0.8)',
+        'glow-blue': '0px 0px 8px rgba(17, 141, 240, 0.8)',
+        'glow-orange': '0px 0px 8px rgba(255, 165, 0, 0.8)',
       },
       boxShadow: {
         'glow': '0px 0px 8px rgba(255, 255, 255, 0.6)',
@@ -94,6 +95,10 @@ module.exports = {
       },
       backgroundSize: {
         'oversize': '200% 200%'
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/photos/landing.jpg')",
+        // 'footer-texture': "url('/img/footer-texture.png')",
       }
     },
   },
