@@ -14,7 +14,7 @@ export default function EventCard({name, disc , reglink, eventtype}:any){
       
             <h5 className="mb-2 text-9xl font-bold tracking-tight text-gray-500 text-center dark:text-white max-w-full" ><BsQuestion/></h5>
       
-        <p className="mb-3 font-ubuntu font-bold text-gray-700 dark:text-gray-400 ">ELEXCIA EVENTS ARE SUPER SECRET :)....STAY TUNED REGISTRATIONS WILL BE OPENED SOON... GET READY TO GRAB YOUR TICKETS..</p>
+        <p className="mb-3 font-ubuntu font-bold text-gray-400 dark:text-gray-400 ">ELEXCIA EVENTS ARE SUPER SECRET :)....STAY TUNED REGISTRATIONS WILL BE OPENED SOON... GET READY TO GRAB YOUR TICKETS..</p>
         <div className="cursor-not-allowed">
         <Button  className="cursor-not-allowed hover:bg-zinc-500" >
           Coming Soon

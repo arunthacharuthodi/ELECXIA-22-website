@@ -30,8 +30,8 @@ const Footer: React.FC = () => {
               glyph="instagram"
             />
             <SocialButton href="https://twitter.com/ma_hacks" glyph="twitter" />
-            <SocialButton href="https://github.com/mahacks" glyph="link" />
-            <SocialButton href="mailto:team@mahacks.com" glyph="email" />
+            <SocialButton href="https://elecxia.live/" glyph="link"  />
+            <SocialButton href="mailto:help@elecxia.live" glyph="email" />
           </div>
 
           <div className="flex-1 flex flex-col gap-1">
@@ -41,35 +41,17 @@ const Footer: React.FC = () => {
         </div>
         <div className="flex-1 flex flex-col gap-3">
           <div>
-            <a
-              target={'_blank'}
-              rel="noreferrer"
-              href="https://vercel.com/?utm_source=mahacks&utm_campaign=oss"
-            >
+            
               {/* eslint-disable @next/next/no-img-element */}
               <img
-                src="/img/powered-by-vercel.svg"
-                alt="Powered By Vercel"
+                src="/img/aeee.png"
+                alt="Powered By aeee"
                 className="w-44"
               />
-            </a>
+            
           </div>
 
-          <div>
-            <a
-              target={'_blank'}
-              rel="noreferrer"
-              href="https://bank.hackclub.com/mahacks/"
-            >
-              {/* eslint-disable @next/next/no-img-element */}
-              <img
-                src="/img/powered-by-hcb.svg"
-                alt="Powered By Hack Club Bank"
-                className="w-44"
-              />
-            </a>
-          </div>
-
+         
           {/* <p className="font-semibold">
         Copyright &copy; {new Date().getFullYear()} MAHacks.
       </p> */}
@@ -78,18 +60,18 @@ const Footer: React.FC = () => {
 
       <div className="text-center pb-6">
         <p className="font-semibold p-2">
-          Copyright {new Date().getFullYear()} MAHacks.
+          Copyright {new Date().getFullYear()}@ elecxia
         </p>
 
         <div className="text-gray-300">
           <p>
-            Fiscally sponsored by{' '}
-            <a className="underline" href="https://hackfoundation.org/">
-              The Hack Foundation
-            </a>
+             organized and controlled by{' '}
+            
+              AEEE GECW
+            
             .
           </p>
-          <p>Nonprofit EIN: 81-2908499</p>
+        
         </div>
       </div>
     </div>

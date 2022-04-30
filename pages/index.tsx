@@ -2,13 +2,14 @@ import type { NextPage } from 'next'
 import HomeLayout from 'components/HomeLayout'
 import InfoGrid from 'components/Sections/InfoGrid'
 import Heading from 'components/Heading'
-import { BsArrowRight } from 'react-icons/bs'
+import { BsArrowRight, BsGrid } from 'react-icons/bs'
 import FAQ from 'components/Sections/FAQ.mdx'
 import Team from 'components/Sections/Team'
 import Meta from 'components/Meta'
 import Previous from 'components/Sections/Previous'
 import Sponsors from 'components/Sections/Sponsors'
 import EventCard from 'components/event_card'
+import EventSection from 'components/Sections/events'
 
 const Home: NextPage = () => {
   
@@ -23,17 +24,11 @@ const Home: NextPage = () => {
             </h1>
       </div >
       </Heading>
-      <br />
+      <EventSection/>
 
 
 
-      <div className="flex flex-wrap justify-evenly space-y-10">
-      
-      <EventCard/>
-      <EventCard/>
-      <EventCard/>
-      <EventCard/>
-      </div>
+     
       <br />
       <p className="text-gray-400 text-sm">
             <a className="underline" href="/prospectus">
@@ -54,7 +49,7 @@ const Home: NextPage = () => {
               SPONSORS
             </h1></Heading>
           <p className="text-gray-400 text-sm">
-            MAHacks is made possible by our awesome sponsors–
+            Elecxia is made possible by our awesome sponsors–
             <a className="underline" href="/prospectus">
               check out our prospectus
             </a>
@@ -67,7 +62,7 @@ const Home: NextPage = () => {
             </a>
           </p>
 
-          <Sponsors />
+          {/* <Sponsors /> */}
         </div>
 
         <div id="faq">
@@ -91,7 +86,7 @@ const Home: NextPage = () => {
 
         <div id="team">
           <Heading><h1 className="text-3xl sm:text-3xl md:text-3xl font-ubuntu font-bold text-transparent bg-clip-text bg-text drop-shadow-glow-white">
-          ORGANISERS
+          ORGANIZERS
             </h1></Heading>
 
           <Team />

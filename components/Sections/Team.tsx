@@ -8,6 +8,12 @@ import Kunal from 'photos/team/kunal.jpeg'
 import Theo from 'photos/team/theo.png'
 import Sarthak from 'photos/team/sarthak.png'
 
+import sourav from 'photos/team/sourav.jpg'
+import binil from 'photos/team/binil.jpeg'
+import nithinraj from 'photos/team/nithinraj.jpeg'
+import akshay from 'photos/team/akshay.jpeg'
+
+
 const alumni = [
   'Jolene Pern',
   'Vicki Yang',
@@ -74,124 +80,81 @@ const Team: React.FC = () => {
     <>
       <Grid>
       <Person
-          name=" DR.Nithin Raj"
-          role="advising professor"
+          name="Dr.Nithin Raj"
+          role="Program coordinators"
           // pronouns="he/him"
-          image={Kunal}
+          image={nithinraj}
         />
         <Person
-          name="Sourav K S"
-          role="Student Organizer"
+          name="Sourav KS"
+          role="Program coordinators"
           // pronouns="he/him"
-          image={Kunal}
+          image={sourav}
         />
         <Person
-          name="Arun Thacharuthodi"
-          role="Technical Head"
+          name="Ajith Kumar VS"
+          role="Event coordinator"
           // pronouns="he/him"
           image={arun}
           // link='https://benjaminashbaugh.me'
         />
         <Person
           name="Binil Babu"
-          role="finance and advertising Head"
+          role="Finance and sponsorship"
           // pronouns="she/her"
-          image={Claire}
+          image={binil}
         />
         <Person
-          name="muhammed Anfal A"
-          role="Media Head"
+          name="Farzana"
+          role="Finance and Advertising"
           // pronouns="he/him"
           image={Theo}
           // link='https://benjaminashbaugh.me'
         />
         <Person
-          name="Ajith Kumar S"
-          role="Event Co-ordinator"
+          name="Arun Thacharuthodi"
+          role="Technical Head"
           // pronouns="he/him"
-          image={Sarthak}
+          image={arun}
         />
         <Person
-        name="Shifana sherin"
-        role="Decoraton Head"
+        name="Anfal"
+        role="Media head"
         // pronouns="he/him"
         image={Sarthak}
       />
       <Person
-        name="Sooraj"
-        role="Decoraton Head"
-        // pronouns="he/him"
-        image={Sarthak}
-      />
-      <Person
-        name="Mustak C P"
-        role="Discipline Head"
-        // pronouns="he/him"
-        image={Sarthak}
-      />
-      <Person
-        name="Adheeb"
+        name="Musthak CP"
         role="Volunteer Head"
         // pronouns="he/him"
         image={Sarthak}
       />
       <Person
-        name="Jithin"
-        role="Documentation Head"
+        name="Akshay C"
+        role="Inter College program head"
+        // pronouns="he/him"
+        image={akshay}
+      />
+      <Person
+        name="Dr. Baburaj"
+        role="Supporting staffs"
         // pronouns="he/him"
         image={Sarthak}
       />
       <Person
-        name="Aswathy"
-        role="invition Head"
+        name="Dr. Avinash Nelson"
+        role="Supporting staffs"
         // pronouns="he/him"
         image={Sarthak}
       />
       <Person
-        name="Akshay"
-        role="Project managing Head"
+        name="Sheeba paulouse"
+        role="Supporting staffs"
         // pronouns="he/him"
         image={Sarthak}
       />
-      <Person
-        name="krishna Das"
-        role="Project managing Head"
-        // pronouns="he/him"
-        image={Sarthak}
-      />
-      <Person
-        name="Midhunjith"
-        role="Project managing Head"
-        // pronouns="he/him"
-        image={Sarthak}
-      />
-      
-      <Person
-        name="Dhilnesh"
-        role="Project managing Head"
-        // pronouns="he/him"
-        image={Sarthak}
-      />
-      <Person
-        name="Soorya"
-        role="Project managing Head"
-        // pronouns="he/him"
-        image={Sarthak}
-      />
-      
-      
       </Grid>
 
-      <Heading as="h3" small>
-        Alumni
-      </Heading>
-      <ul>
-        {alumni.map((name, i) => (
-          <li key={i} className="inline">
-            {name} {i !== alumni.length - 1 && <>&bull;</>}{' '}
-          </li>
-        ))}
-      </ul>
     </>
   )
 }
