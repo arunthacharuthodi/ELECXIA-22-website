@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
         <div className="flex-1 flex flex-col gap-3">
           <div className="flex gap-3">
             <SocialButton
-              href="https://www.instagram.com/ma_hacks/"
+              href="https://www.instagram.com/elexia'22/"
               glyph="instagram"
             />
             <SocialButton href="https://twitter.com/ma_hacks" glyph="twitter" />

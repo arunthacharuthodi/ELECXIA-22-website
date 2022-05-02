@@ -79,7 +79,7 @@ const Home: NextPage = () => {
             </a>
           </p>
 
-          <div className="p-6 rounded-xl bg-bg-card font-ubuntu my-4 mdx">
+          <div className="p-6  to-bg-card font-ubuntu my-4 mdx">
             <FAQ />
           </div>
         </div>

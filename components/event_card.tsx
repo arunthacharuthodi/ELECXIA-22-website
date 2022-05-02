@@ -8,7 +8,7 @@ export default function EventCard({name, disc , reglink, eventtype}:any){
   
     <div className=" " >
 
-<div className="max-w-md bg-bg-card rounded-lg  shadow-md dark:bg-gray-800 dark:border-gray-700">
+<div className="max-w-md bg-slate-800 rounded-lg  shadow-md dark:bg-gray-800 dark:border-gray-700">
     
     <div className="p-5">
       

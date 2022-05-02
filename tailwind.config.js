@@ -36,6 +36,7 @@ module.exports = {
         },
       },
       fontFamily: {
+        blanka: ['Blanka', 'Blanka'],
         ubuntu:['"Ubuntu"', 'ubuntu'],
         ubuntumedium:['"Ubuntu Medium"', 'ubuntu-medium'],
         primary: ['"Outfit"', 'sans-serif'], // or Fira Sans?

@@ -32,3 +32,10 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Blanka';
+  src: url(./fonts/Blanka-Regular.otf) format('.otf');
+  font-weight: medium;
+  font-style: normal;
+  font-display: swap;
+}

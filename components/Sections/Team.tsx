@@ -3,15 +3,21 @@ import clsx from 'clsx'
 import Heading from 'components/Heading'
 import Image from 'next/image'
 import arun from 'photos/team/arun.jpg'
-import Claire from 'photos/team/claire.png'
-import Kunal from 'photos/team/kunal.jpeg'
-import Theo from 'photos/team/theo.png'
-import Sarthak from 'photos/team/sarthak.png'
 
 import sourav from 'photos/team/sourav.jpg'
-import binil from 'photos/team/binil.jpeg'
 import nithinraj from 'photos/team/nithinraj.jpeg'
 import akshay from 'photos/team/akshay.jpeg'
+import baburaj from 'photos/team/baburaj.jpg'
+import sheeba from 'photos/team/sheeba.jpeg'
+import hod from 'photos/team/hod.jpeg'
+import avinash from 'photos/team/avinash.jpg'
+import anfal from 'photos/team/anfal.jpg'
+import binil2 from 'photos/team/binilbabu.jpeg'
+import das from 'photos/team/das.jpeg'
+import ajith from 'photos/team/ajith.jpeg'
+import mustak from 'photos/team/mustak.jpg'
+import farzana from 'photos/team/farzana.jpg'
+
 
 
 const alumni = [
@@ -52,7 +58,7 @@ const Person = ({ name, role, pronouns, image, link }: any) => {
         <a href={link} target={'_blank'} rel="noreferrer">
           <h4
             className={clsx(
-              'font-bold text-lg border-b border-transparent border-dashed',
+              'font-bold font-ubuntu text-lg border-b border-transparent border-dashed',
               link && 'hover:border-primary hover:text-primary'
             )}
           >
@@ -60,8 +66,8 @@ const Person = ({ name, role, pronouns, image, link }: any) => {
             {/* <span className="text-gray-500 font-light">({pronouns})</span> */}
           </h4>
         </a>
-        <p className="text-gray-600">
-          {role} &middot; {pronouns}
+        <p className="text-gray-500 font-ubuntu font-bold ">
+          {role}
         </p>
         {/* <a><Icon glyph='web' /></a> */}
       </div>
@@ -80,6 +86,12 @@ const Team: React.FC = () => {
     <>
       <Grid>
       <Person
+          name="Dr.JayaPrakash"
+          role="HOD"
+          // pronouns="he/him"
+          image={hod}
+        />
+      <Person
           name="Dr.Nithin Raj"
           role="Program coordinators"
           // pronouns="he/him"
@@ -95,20 +107,20 @@ const Team: React.FC = () => {
           name="Ajith Kumar VS"
           role="Event coordinator"
           // pronouns="he/him"
-          image={arun}
+          image={ajith}
           // link='https://benjaminashbaugh.me'
         />
         <Person
           name="Binil Babu"
           role="Finance and sponsorship"
           // pronouns="she/her"
-          image={binil}
+          image={binil2}
         />
         <Person
           name="Farzana"
           role="Finance and Advertising"
           // pronouns="he/him"
-          image={Theo}
+          image={farzana}
           // link='https://benjaminashbaugh.me'
         />
         <Person
@@ -121,13 +133,13 @@ const Team: React.FC = () => {
         name="Anfal"
         role="Media head"
         // pronouns="he/him"
-        image={Sarthak}
+        image={anfal}
       />
       <Person
         name="Musthak CP"
         role="Volunteer Head"
         // pronouns="he/him"
-        image={Sarthak}
+        image={mustak}
       />
       <Person
         name="Akshay C"
@@ -136,22 +148,28 @@ const Team: React.FC = () => {
         image={akshay}
       />
       <Person
+        name="Krishnadas "
+        role="Inter College project head"
+        // pronouns="he/him"
+        image={das}
+      />
+      <Person
         name="Dr. Baburaj"
         role="Supporting staffs"
         // pronouns="he/him"
-        image={Sarthak}
+        image={baburaj}
       />
       <Person
         name="Dr. Avinash Nelson"
         role="Supporting staffs"
         // pronouns="he/him"
-        image={Sarthak}
+        image={avinash}
       />
       <Person
         name="Sheeba paulouse"
         role="Supporting staffs"
         // pronouns="he/him"
-        image={Sarthak}
+        image={sheeba}
       />
       </Grid>
 
