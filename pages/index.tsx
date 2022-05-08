@@ -50,7 +50,7 @@ const Home: NextPage = () => {
             </h1></Heading>
           <p className="text-gray-400 text-sm">
             Elecxia is looking forward for good sponsers like you–
-            <a className="underline" href="https://fliphtml5.com/mvuck/nbez">
+            <a className="underline" href="https://online.fliphtml5.com/mvuck/hndj/">
               check out our Brochure
             </a>
             ! Want to work together?&nbsp;
