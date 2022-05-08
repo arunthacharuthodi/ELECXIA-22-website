@@ -49,14 +49,14 @@ const Home: NextPage = () => {
               SPONSORS
             </h1></Heading>
           <p className="text-gray-400 text-sm">
-            Elecxia is made possible by our awesome sponsors–
-            <a className="underline" href="/prospectus">
-              check out our prospectus
+            Elecxia is looking forward for good sponsers like you–
+            <a className="underline" href="https://fliphtml5.com/mvuck/nbez">
+              check out our Brochure
             </a>
             ! Want to work together?&nbsp;
             <a
               className="font-semibold hover:underline inline-flex items-center"
-              href="mailto:team@mahacks.com"
+              href="mailto:help@elecxia.live"
             >
               Let&apos;s talk <BsArrowRight className="inline-block mx-1" />
             </a>

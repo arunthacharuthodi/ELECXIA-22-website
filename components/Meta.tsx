@@ -1,7 +1,6 @@
 import Head from 'next/head'
 
 const name = 'Elecxia'
-const url = 'https://mahacks.com'
 
 const Meta: React.FC<{
   title?: string
@@ -9,8 +8,8 @@ const Meta: React.FC<{
   image?: string
 }> = ({
   title: pageTitle,
-  description = 'Learn to code, hone your skills, build something new, and make new friends with free food and prizes over 24 hours! MAHacks VI is a 24-hour high school hackathon for students of all skill sets and experience. Come join us for a weekend of fun!',
-  image = url + '/img/og/default.png',
+  description = 'Elecxia is the annual tech fest organized by Association of electrical and electronics engineering in government engineering college wayanad',
+  image = 'https://github.com/arunthacharuthodi/elecxia-items/blob/main/ELECXIA.png?raw=true',
   children,
 }) => {
   const title = pageTitle ? `${pageTitle} | ${name}` : name
