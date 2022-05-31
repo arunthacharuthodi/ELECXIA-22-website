@@ -13,10 +13,9 @@ const Landing: React.FC = () => {
     <div>
       <Parallax y={[20, -20]}>
         <div className="px-3 max-w-3xl mx-auto h-screen flex flex-col items-start gap-6 sm:gap-10 justify-center">
-          {/* <div className="p-3 text-center bg-accent-red border-accent-red border-2 rounded-lg font-bold animate-hover">
-            MAHacks has been postponed from March 19-20. Please check
-            your email for more details.
-          </div> */}
+          <div className="p-3 text-center bg-violet-400 border-white border-2 rounded-lg font-bold animate-hover">
+            LOGO LAUNCH DAY LUCKY DRAW IS NOW ACTIVE .... LINK WILL BE CLOSED WITHIN 12 HOURS
+          </div>
 
           <div>
 
@@ -31,8 +30,8 @@ const Landing: React.FC = () => {
           </div>
 
           <p className="sm:text-base  font-ubuntu   max-w-5xl">
-            Hey.. Come and Join us for the 3 days event Organised and Controlled by <b>ASSOCIATION OF ELECTRICAL AND ELECTRONICS ENGINEERING</b> in Government Engineering College Wayanad. we are Hosting Lots Of Events During this Fest... So lets Have 
-            Fun Grab your Bag And Came here.. 
+            Hey.. Come and Join us for the 2 days event Organised  by <b>ASSOCIATION OF ELECTRICAL AND ELECTRONICS ENGINEERING</b> in Government Engineering College Wayanad. We are hosting lots of Events during this fest... So lets Have 
+            Fun .. 
           </p>
 
           <div className="flex gap-3 font-light text-base drop-shadow-glow-white">
@@ -52,7 +51,7 @@ const Landing: React.FC = () => {
           <div className="flex flex-col gap-4">
             <Link href="/#ourevents">
               <a>
-                <Button glow>Register Now</Button>
+                <Button glow>LUCKY DRAW!!!!!</Button>
               </a>
             </Link>
 

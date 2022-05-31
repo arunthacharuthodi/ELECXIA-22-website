@@ -26,10 +26,10 @@ const Footer: React.FC = () => {
         <div className="flex-1 flex flex-col gap-3">
           <div className="flex gap-3">
             <SocialButton
-              href="https://www.instagram.com/elexia'22/"
+              href="https://www.instagram.com/elexia_gecw/"
               glyph="instagram"
             />
-            <SocialButton href="https://twitter.com/ma_hacks" glyph="twitter" />
+            {/* <SocialButton href="https://twitter.com/ma_hacks" glyph="twitter" /> */}
             <SocialButton href="https://elecxia.live/" glyph="link"  />
             <SocialButton href="mailto:help@elecxia.live" glyph="email" />
           </div>
@@ -59,15 +59,13 @@ const Footer: React.FC = () => {
       </div>
 
       <div className="text-center pb-6">
-        <p className="font-semibold p-2">
+        {/* <p className="font-semibold p-2">
           Copyright {new Date().getFullYear()}@ elecxia
-        </p>
+        </p> */}
 
         <div className="text-gray-300">
           <p>
-             organized and controlled by{' '}
-            
-              AEEE GECW
+            Gov't Engineering College Wayanad
             
             .
           </p>
