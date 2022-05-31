@@ -49,7 +49,7 @@ const Landing: React.FC = () => {
           </div>
 
           <div className="flex flex-col gap-4">
-            <Link href="/#ourevents">
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf7JIFMAu9JI2MdKG6u-BoZB7389bDrcFxYxeiKLmdQuh-UTQ/viewform?usp=sf_link">
               <a>
                 <Button glow>LUCKY DRAW!!!!!</Button>
               </a>
