@@ -1,9 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 const googleFontFamilies: string[] = [
-  'DM+Sans:ital,wght@0,400;0,500;0,700;1,400',
-  'Outfit:wght@400;600;700;800',
-  'Inter:wght@300;400;600;700;800',
+  'Gemunu+Libre:wght@400;500'
 ]
 
 class MyDocument extends Document {
@@ -14,7 +12,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html className='scroll-smooth' style={{scrollBehavior:'smooth'}}>
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link

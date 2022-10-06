@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Link from 'next/link'
 import {
   HiOutlineCalendar,
@@ -8,14 +9,20 @@ import Button from './Button'
 import ShapeRain from './Effects/ShapeRain'
 import Heading from './Heading'
 
+
 const Landing: React.FC = () => {
   return (
     <div>
+    <Head>
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com"  />
+      <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;500&display=swap" rel="stylesheet"></link>
+    </Head>
       <Parallax y={[20, -20]}>
         <div className="px-3 max-w-3xl mx-auto h-screen flex flex-col items-start gap-6 sm:gap-10 justify-center">
-          <div className="p-3 text-center bg-violet-400 border-white border-2 rounded-lg font-bold animate-hover">
+          {/* <div className="p-3 text-center bg-violet-400 border-white border-2 rounded-lg font-bold animate-hover">
             LOGO LAUNCH DAY LUCKY DRAW IS NOW ACTIVE .... LINK WILL BE CLOSED WITHIN 12 HOURS
-          </div>
+          </div> */}
 
           <div>
 
@@ -49,9 +56,9 @@ const Landing: React.FC = () => {
           </div>
 
           <div className="flex flex-col gap-4">
-            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf7JIFMAu9JI2MdKG6u-BoZB7389bDrcFxYxeiKLmdQuh-UTQ/viewform?usp=sf_link">
+            <Link href="#preevents">
               <a>
-                <Button glow>LUCKY DRAW!!!!!</Button>
+                <Button glow>REGISTER PRE EVENTS</Button>
               </a>
             </Link>
 

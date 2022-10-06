@@ -2,7 +2,7 @@ import Icon from '@hackclub/icons'
 import clsx from 'clsx'
 import Heading from 'components/Heading'
 import Image from 'next/image'
-import arun from 'photos/team/arun.jpg'
+import arun from 'photos/team/arunthacharuthodi.jpg'
 import Claire from 'photos/team/claire.png'
 import Kunal from 'photos/team/kunal.jpeg'
 import Theo from 'photos/team/theo.png'
@@ -68,6 +68,7 @@ const Event = ({ EventName, is_Active, eventType, desc, cost , is_Team , regLink
 
 <div className="max-w-md bg-bg-card rounded-lg  shadow-md dark:bg-gray-800 dark:border-gray-700">
     
+      <img src="./img/posters/batteryws.png" alt="image"  />
     <div className="p-5">
       
             <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-500 text-center dark:text-white max-w-full" >{EventName}</h5>
@@ -105,11 +106,13 @@ const EventSection: React.FC = () => {
   return (
     <>
       <Grid>
+
       <Event
       EventName="nothing"
       is_Active={false}
 
       />
+
       <Event
       EventName="nothing"
       is_Active={false}

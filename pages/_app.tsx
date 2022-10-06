@@ -4,6 +4,7 @@ import NProgress from 'nprogress'
 import '../styles/nprogress.css'
 import '../styles/globals.css'
 import '../styles/fonts.css'
+import '../components/landingcss.css'
 import { ParallaxProvider } from 'react-scroll-parallax'
 import Script from 'next/script'
 
