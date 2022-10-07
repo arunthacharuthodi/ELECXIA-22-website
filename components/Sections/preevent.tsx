@@ -42,7 +42,7 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink , is_Team , regLin
         
               <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-500 text-center dark:text-white max-w-full" >{EventName}</h5>
         
-          <p className=" font-ubuntu font-bold text-gray-700 dark:text-gray-400 ">REGISTRAION FEE: {regCost}</p>
+          <p className=" font-ubuntu font-bold text-gray-700 dark:text-gray-400 ">REGISTRATION FEE: {regCost}</p>
           <p className="mb-3 font-ubuntu font-bold text-gray-700 dark:text-gray-400 ">DATE: {date}</p>
           <div className="">
           <Link href={regLink}>
