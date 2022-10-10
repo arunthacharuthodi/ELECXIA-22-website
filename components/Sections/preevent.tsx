@@ -77,15 +77,7 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink , is_Team , regLin
     return (
       <>
         <Grid>
-        <Event
-        EventName="WORKSHOP ON LITHIUM BATTERIES"
-        is_Active={true}
-        regCost="Rs. FREE"
-        regLink="https://forms.gle/Spsekju63ZCiG5FS6"
-        date="OCT 09, 2022"
-        imgLink="./img/posters/battery.png"
-  
-        />
+        
         <Event
         EventName="INTRODUCTION TO ROBOTICS"
         is_Active={true}
