@@ -19,10 +19,7 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink , is_Team , regLin
           <p className="mb-3 font-ubuntu font-bold text-gray-700 dark:text-gray-400 ">DATE: {date}</p>
           <div className="">
           
-          <a >
-            
-          <button className="custom-btn btn-9">REGISTRATION CLOSED</button>
-          </a>
+         
   
           </div>
       </div>
@@ -45,13 +42,7 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink , is_Team , regLin
                <p className=" font-ubuntu font-bold text-gray-700 dark:text-gray-400 ">REGISTRAION FEE: {regCost}</p>
                <p className="mb-3 font-ubuntu font-bold text-gray-700 dark:text-gray-400 ">DATE: {date}</p>
                <div className="">
-               <Link href={regLink}>
-               <a >
-                 
-               <button className="custom-btn btn-9">REGISTER NOW</button>
-               </a>
-       
-               </Link>
+               
                </div>
            </div>
          </div>
@@ -73,7 +64,7 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink , is_Team , regLin
     </div>
   )
   
-  const PreEventSection: React.FC = () => {
+  const PastEventSection: React.FC = () => {
     return (
       <>
         <Grid>
@@ -84,7 +75,7 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink , is_Team , regLin
         regLink="https://forms.gle/Spsekju63ZCiG5FS6"
         date="OCT 09, 2022"
         imgLink="./img/posters/battery.png"
-        is_closed={true}
+  
   
         />
         <Event
@@ -94,7 +85,7 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink , is_Team , regLin
         regLink="https://forms.gle/UYvq9RSSRtjibyGU7"
         date="OCT 12,13,14, 2022"
         imgLink="./img/posters/robocuria.png"
-        is_closed={true}
+     
 
   
         />
@@ -107,4 +98,4 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink , is_Team , regLin
     )
   }
   
-  export default PreEventSection
+  export default PastEventSection

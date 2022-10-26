@@ -11,13 +11,14 @@ import Sponsors from 'components/Sections/Sponsors'
 import EventCard from 'components/event_card'
 import EventSection from 'components/Sections/events'
 import PreEventSection from 'components/Sections/preevent'
+import PastEventSection from 'components/Sections/post_event'
 
 const Home: NextPage = () => {
   
   return (
     <HomeLayout>
       <Meta />
-      <Heading>
+      {/* <Heading>
 
       <div id="preevents" >
       <h1 className="text-3xl sm:text-3xl md:text-3xl font-ubuntu font-bold text-transparent bg-clip-text bg-text drop-shadow-glow-white">
@@ -25,7 +26,7 @@ const Home: NextPage = () => {
             </h1>
       </div >
       </Heading>
-      <PreEventSection/>
+      <PreEventSection/> */}
       <Heading>
 
       <div id="ourevents" >
@@ -35,6 +36,17 @@ const Home: NextPage = () => {
       </div >
       </Heading>
       <EventSection/>
+
+      {/* past events  */}
+      <Heading>
+
+      <div id="past events" >
+      <h1 className="text-3xl sm:text-3xl md:text-3xl font-ubuntu font-bold text-transparent bg-clip-text bg-text drop-shadow-glow-white">
+              OUR PAST EVENTS
+            </h1>
+      </div >
+      </Heading>
+      <PastEventSection/>
 
 
 
