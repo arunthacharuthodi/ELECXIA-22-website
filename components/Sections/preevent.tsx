@@ -5,42 +5,15 @@ import Link from "next/link";
 const Event = ({ EventName, is_Active, regCost, date, imgLink , is_Team , regLink }: any) => {
     if(is_Active){
       return (
-          // <div className="flex items-center gap-3">
-          //   <Image
-          //     src={image}
-          //     alt={name}
-          //     width={120}
-          //     height={120}
-          //     className="rounded-md"
-          //     objectFit="cover"
-          //     objectPosition={'center'}
-          //   />
-          //   <div className="flex flex-col">
-          //     <a href={link} target={'_blank'} rel="noreferrer">
-          //       <h4
-          //         className={clsx(
-          //           'font-bold text-lg border-b border-transparent border-dashed',
-          //           link && 'hover:border-primary hover:text-primary'
-          //         )}
-          //       >
-          //         {name}
-          //         {/* <span className="text-gray-500 font-light">({pronouns})</span> */}
-          //       </h4>
-          //     </a>
-          //     <p className="text-gray-600">
-          //       {role} &middot; {pronouns}
-          //     </p>
-          //     {/* <a><Icon glyph='web' /></a> */}
-          //   </div>
-          // </div>
-          <div className=" " >
+          
+   <div className="neoborder" >
   
-  <div className="max-w-md bg-bg-card rounded-lg  shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <div className=" max-w-md bg-bg-card rounded-lg  shadow-md dark:bg-gray-800 dark:border-gray-700 ">
       
-        <img src={imgLink} alt="image"  />
-      <div className="p-5">
+          <img src={imgLink} className="" alt="image"  />
+          <div className="p-5">
         
-              <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-500 text-center dark:text-white max-w-full" >{EventName}</h5>
+              <h5 className="neonText mb-2 text-xl font-bold tracking-tight text-gray-500 text-center dark:text-white max-w-full" >{EventName}</h5>
         
           <p className=" font-ubuntu font-bold text-gray-700 dark:text-gray-400 ">REGISTRAION FEE: {regCost}</p>
           <p className="mb-3 font-ubuntu font-bold text-gray-700 dark:text-gray-400 ">DATE: {date}</p>
@@ -48,16 +21,14 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink , is_Team , regLin
           <Link href={regLink}>
           <a >
             
-          <Button  className=" hover:bg-green-500"  >
-            Register
-          </Button>
+          <button className="custom-btn btn-9">REGISTER NOW</button>
           </a>
   
           </Link>
           </div>
       </div>
+    </div>
   </div>
-      </div>
         )
       
     }else{
