@@ -51,14 +51,14 @@ const Landing: React.FC = () => {
             </div>
             <div className="flex items-center">
               <HiOutlineCalendar className="inline-block mx-2" size={20} />
-              DATE TO BE ANNOUNCED!!!
+              5TH AND 6TH NOVEMBER
             </div>
           </div>
 
           <div className="flex flex-col gap-4">
-            <Link href="#preevents">
+            <Link href="#ourevents">
               <a>
-                <Button glow>REGISTER PRE EVENTS</Button>
+                <Button glow>REGISTER OUR EVENTS</Button>
               </a>
             </Link>
 
