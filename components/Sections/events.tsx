@@ -238,11 +238,11 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink,siteLink , is_Team
         EventName="INTER COLLEGE PROJECT COMPETITION"
         is_Active={true}
         regCost="Rs. 500"
-        regLink="https://forms.gle/VCpWfKULUJ6bMFuh8"
+        regLink="https://revelationreg.elecxia.live/"
         date="NOV 05, 2022"
         imgLink="./img/posters/revelation.jpeg"
         // is_closed={true}
-        siteLink="https://revelationreg.elecxia.live/"
+    
   
         />
       
