@@ -201,15 +201,7 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink,siteLink , is_Team
                <p className="mb-3 font-ubuntu font-bold text-gray-700 dark:text-gray-400 ">DATE: {date}</p>
                <div className="">
                 
-               <Link href={siteLink}>
-               <a >
-                 
-               <button className="custom-btn btn-9">MORE  DETAILS!</button>
-               </a>
-       
-               </Link>
-               <br />
-               <br />
+               
                <Link href={regLink}>
                <a >
                  
