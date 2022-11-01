@@ -234,7 +234,7 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink,siteLink , is_Team
     return (
       <>
         <Grid>
-        <Event
+        {/* <Event
         EventName="INTER COLLEGE PROJECT COMPETITION"
         is_Active={true}
         regCost="Rs. 500"
@@ -242,9 +242,17 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink,siteLink , is_Team
         date="NOV 05, 2022"
         imgLink="./img/posters/revelation.jpeg"
         // is_closed={true}
-    
-  
+        /> */}
+        <Event
+        EventName="ELECTRIC VEHICLES DESIGN WORKSHOP"
+        is_Active={true}
+        regCost="Rs. 150"
+        regLink="https://www.yepdesk.com/electrical-vehicles-designing"
+        date="NOV 05, 2022"
+        imgLink="./img/posters/ev workshop.jpeg"
+        // is_closed={true}
         />
+
       
 
         

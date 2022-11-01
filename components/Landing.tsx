@@ -37,8 +37,7 @@ const Landing: React.FC = () => {
           </div>
 
           <p className="sm:text-base  font-ubuntu  font-bold max-w-5xl">
-            Hey.. Come and Join us for the 2 days event Organised  by <b>ASSOCIATION OF ELECTRICAL AND ELECTRONICS ENGINEERING</b> in Government Engineering College Wayanad. We are hosting lots of Events during this fest... So lets Have 
-            Fun .. 
+          Elecxia is the tech fest blended perfectly with tech, art and innovation hosted by AEEE GEC Wayanad.Get ready to be electrified with hackathons, competitions, workshops, and cultural and tech talks…..
           </p>
 
           <div className="flex gap-3 font-light text-base drop-shadow-glow-white">
