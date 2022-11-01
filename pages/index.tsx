@@ -12,6 +12,7 @@ import EventCard from 'components/event_card'
 import EventSection from 'components/Sections/events'
 import PreEventSection from 'components/Sections/preevent'
 import PastEventSection from 'components/Sections/post_event'
+import CollabEventSection from 'components/Sections/collabevents'
 
 const Home: NextPage = () => {
   
@@ -36,6 +37,17 @@ const Home: NextPage = () => {
       </div >
       </Heading>
       <EventSection/>
+
+      {/* collab events  */}
+      <Heading>
+
+      <div id="collabevents" >
+      <h1 className="text-3xl sm:text-3xl md:text-3xl font-ubuntu font-bold text-transparent bg-clip-text bg-text drop-shadow-glow-white">
+              COLLAB EVENTS
+            </h1>
+      </div >
+      </Heading>
+      <CollabEventSection/>
 
       {/* past events  */}
       <Heading>
