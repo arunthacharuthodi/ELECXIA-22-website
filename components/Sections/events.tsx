@@ -235,7 +235,7 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink,siteLink , is_Team
       <>
         <Grid>
         {/* <Event
-        EventName="INTER COLLEGE PROJECT COMPETITION"
+        EventName="REVELATION"
         is_Active={true}
         regCost="Rs. 500"
         regLink="https://revelationreg.elecxia.live/"
@@ -243,7 +243,16 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink,siteLink , is_Team
         imgLink="./img/posters/revelation.jpeg"
         // is_closed={true}
         /> */}
-        <Event
+<!--         <Event
+        EventName=""
+        is_Active={true}
+        regCost="Rs. 150"
+        regLink="https://www.yepdesk.com/electrical-vehicles-designing"
+        date="NOV 05, 2022"
+        imgLink="./img/posters/ev workshop.jpeg"
+        // is_closed={true}
+        />
+            <Event
         EventName="ELECTRIC VEHICLES DESIGN WORKSHOP"
         is_Active={true}
         regCost="Rs. 150"
@@ -252,6 +261,42 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink,siteLink , is_Team
         imgLink="./img/posters/ev workshop.jpeg"
         // is_closed={true}
         />
+            <Event
+        EventName="ELECTRIC VEHICLES DESIGN WORKSHOP"
+        is_Active={true}
+        regCost="Rs. 150"
+        regLink="https://www.yepdesk.com/electrical-vehicles-designing"
+        date="NOV 05, 2022"
+        imgLink="./img/posters/ev workshop.jpeg"
+        // is_closed={true}
+        />
+            <Event
+        EventName="ELECTRIC VEHICLES DESIGN WORKSHOP"
+        is_Active={true}
+        regCost="Rs. 150"
+        regLink="https://www.yepdesk.com/electrical-vehicles-designing"
+        date="NOV 05, 2022"
+        imgLink="./img/posters/ev workshop.jpeg"
+        // is_closed={true}
+        />
+            <Event
+        EventName="ELECTRIC VEHICLES DESIGN WORKSHOP"
+        is_Active={true}
+        regCost="Rs. 150"
+        regLink="https://www.yepdesk.com/electrical-vehicles-designing"
+        date="NOV 05, 2022"
+        imgLink="./img/posters/ev workshop.jpeg"
+        // is_closed={true}
+        />
+         <Event
+        EventName="ELECTRIC VEHICLES DESIGN WORKSHOP"
+        is_Active={true}
+        regCost="Rs. 150"
+        regLink="https://www.yepdesk.com/electrical-vehicles-designing"
+        date="NOV 05, 2022"
+        imgLink="./img/posters/ev workshop.jpeg"
+        // is_closed={true}
+        /> -->
 
       
 
