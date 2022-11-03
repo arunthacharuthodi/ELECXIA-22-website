@@ -89,6 +89,15 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink,siteLink , is_Team
         imgLink="./img/posters/ev workshop.jpeg"
         // is_closed={true}
         />
+        <Event
+        EventName="INTERNET of THINGS WORKSHOP"
+        is_Active={true}
+        regCost="Rs. 150"
+        regLink="https://www.yepdesk.com/electrical-vehicles-designing"
+        date="NOV 05, 2022"
+        imgLink="./img/posters/IOT.jpeg"
+        // is_closed={true}
+        />
             <Event
         EventName="E-KNOT -SOLDERING COMPETITION"
         is_Active={true}
@@ -99,7 +108,7 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink,siteLink , is_Team
         // is_closed={true}
         />
          <Event
-        EventName="REVELATION"
+        EventName="REVELATION- INTER COLLAGE COMPETITION"
         is_Active={true}
         regCost="Rs. 500"
         regLink="https://www.yepdesk.com/revelation-inter-college-project-competition"
@@ -127,12 +136,21 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink,siteLink , is_Team
         />
        
          <Event
-        EventName="WIRZZ - WIRING MASTER"
+        EventName="WIRZZ - WIRING MASTER COMPETITION"
         is_Active={true}
         regCost="Rs. 50"
         regLink="https://www.yepdesk.com/wiring-master"
         date="NOV 05, 2022"
         imgLink="./img/posters/WIRING-MASTER-1.png"
+        // is_closed={true}
+        /> 
+        <Event
+        EventName="EVTHON - HACKATHON ON ELECTRIC VEHICLES"
+        is_Active={true}
+        regCost="Rs. 200"
+        regLink="https://www.yepdesk.com/evthoh"
+        date="NOV 05, 2022"
+        imgLink="./img/posters/EVTHON.jpeg"
         // is_closed={true}
         /> 
 
