@@ -48,7 +48,7 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink,siteLink , is_Team
                 
                
                <Link href={regLink}>
-               <a >
+               <a target="_blank" >
                  
                <button className="custom-btn btn-9">REGISTER NOW</button>
                </a>
@@ -93,15 +93,15 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink,siteLink , is_Team
         EventName="INTERNET of THINGS WORKSHOP"
         is_Active={true}
         regCost="Rs. 150"
-        regLink="https://www.yepdesk.com/electrical-vehicles-designing"
-        date="NOV 05, 2022"
+        regLink="https://www.yepdesk.com/internet-of-things2"
+        date="NOV 06, 2022"
         imgLink="./img/posters/IOT.jpeg"
         // is_closed={true}
         />
             <Event
         EventName="E-KNOT -SOLDERING COMPETITION"
         is_Active={true}
-        regCost="Rs. 150"
+        regCost="Rs. 50"
         regLink="https://www.yepdesk.com/soldering-competition"
         date="NOV 05, 2022"
         imgLink="./img/posters/SOLDERING-1.png"
@@ -121,7 +121,7 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink,siteLink , is_Team
         is_Active={true}
         regCost="Rs. 50"
         regLink="https://www.yepdesk.com/circuit-simulation"
-        date="NOV 05, 2022"
+        date="NOV 06, 2022"
         imgLink="./img/posters/CIRCUIT STIMULATION-1.png"
         // is_closed={true}
         />
@@ -149,8 +149,26 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink,siteLink , is_Team
         is_Active={true}
         regCost="Rs. 200"
         regLink="https://www.yepdesk.com/evthoh"
-        date="NOV 05, 2022"
+        date="NOV 06, 2022"
         imgLink="./img/posters/EVTHON.jpeg"
+        // is_closed={true}
+        /> 
+        <Event
+        EventName="KICK OF KING -DEBATE COMPETITION"
+        is_Active={true}
+        regCost="Rs. 50"
+        regLink="https://www.yepdesk.com/kick-of-king-debate-competition-"
+        date="NOV 06, 2022"
+        imgLink="./img/posters/DEBATE.jpeg"
+        // is_closed={true}
+        /> 
+        <Event
+        EventName="REVELATION - SCHOOL PROJECT COMPETITION"
+        is_Active={true}
+        regCost="Rs. 50"
+        regLink="https://www.yepdesk.com/revelation-school-level-competition"
+        date="NOV 05, 2022"
+        imgLink="./img/posters/REVELATION-SCHOOL.jpeg"
         // is_closed={true}
         /> 
 
