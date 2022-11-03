@@ -129,7 +129,7 @@ const Event = ({ EventName, is_Active, regCost, date, imgLink,siteLink , is_Team
          <Event
         EventName="WIRZZ - WIRING MASTER"
         is_Active={true}
-        regCost="Rs. 150"
+        regCost="Rs. 50"
         regLink="https://www.yepdesk.com/wiring-master"
         date="NOV 05, 2022"
         imgLink="./img/posters/WIRING-MASTER-1.png"
